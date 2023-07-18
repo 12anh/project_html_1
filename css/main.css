@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    font-family: 'Work Sans', sans-serif; 
+}
+.header__top{
+    background-color: #ff4f81;
+    font-size: 14px;
+    color : white ; 
+  
+}
+.header__top a {
+    text-decoration: none;
+}
+.header__right a {
+    
+    background-color: black;
+    border: 1px solid black ;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+}
+.navInstruction a {
+    color: black;
+}
+.navInstruction>a>p:first-child{
+    font-size: 36px;
+}
+.navInstruction>a>p:last-child{
+    font-size: 11px;
+    color: #ff4f81;
+    letter-spacing: 3px;
+}
