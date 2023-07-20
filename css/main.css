@@ -36,3 +36,15 @@ html,body{
     color: #ff4f81;
     letter-spacing: 3px;
 }
+.header__left a:hover{
+    color : black !important ; 
+} 
+.cyberCarousel .carousel-item button{
+    padding: 11px 20px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 0;
+    letter-spacing: 2px;
+    font-size: 14px;
+    transition: all 0.5s;
+}
