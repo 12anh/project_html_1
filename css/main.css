@@ -36,3 +36,58 @@ html,body{
     color: #ff4f81;
     letter-spacing: 3px;
 }
+#navbarNavDropdown .nav-item:hover a{
+    color: #ff4f81;
+}
+#navbarNavDropdown .nav-item{
+    margin: 0 15px;
+}
+
+#navbarNavDropdown .nav-link{
+    letter-spacing: 1px;
+    font-weight: bold ; 
+    font-size: 14px;
+    transition: all 0.6s ;
+}
+#navbarNavDropdown .nav-item::after{
+    content: '';
+    width: 0 ; 
+    height: 2px;
+    background-color: #ff4f81;
+    display: block;
+    transition: all .6s;
+}
+#navbarNavDropdown .nav-item:hover::after{
+    width: 100%;
+}
+#navbarNavDropdown .nav-item.active .nav-link {
+    color: #ff4f81;
+}
+#navbarNavDropdown .nav-item.active::after{
+    width: 100%;
+}
+#navbarNavDropdown .dropdown-menu{
+    background-color: rgba(0,0,0,0.6);
+}
+
+.header__left a:hover{
+    color : black !important ; 
+} 
+.cyberCarousel .carousel-item button{
+    padding: 11px 20px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 0;
+    letter-spacing: 2px;
+    font-size: 14px;
+    transition: all 0.5s;
+}
+.cyberCarousel .carousel-caption h1{
+    font-size: 52px;
+}
+.cyberCarousel .carousel-caption p{
+ letter-spacing: 4px;
+ line-height: 1.8rem;
+ width: 70%;
+ margin: 0 auto;
+}
