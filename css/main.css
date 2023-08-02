@@ -108,6 +108,22 @@ html,body{
 .section {
     padding: 5rem 0;
 }
+.information p{
+    font-size: 2rem;
+    color: skyblue;
+    text-align: center;
+    animation: blink 2s linear infinite ; 
+}
+@keyframes blink {
+    50%{
+        opacity: 0;
+    }
+    80%{
+        opacity: .5;
+    }
+    
+}
+
 .feedback__heading p{
     color: white;
     text-transform: capitalize;
@@ -158,7 +174,16 @@ html,body{
 }
 
 .feedback__bottom p {
-    margin: 0;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+.feedback__top span{
+    color: red;
+    font-weight: bold;
+}
+
+.offer{
+    padding-bottom: 2rem;
 }
 .offer_col{
     padding: 15px;
@@ -167,20 +192,21 @@ html,body{
     padding: 25px 40px;
     box-shadow: 0px 1px 8px 0px rgba(158, 158, 158, 0.75);
     text-align: center;
-    background-color: white;
+    background-color: hsla(78, 74%, 46%, 0.47);
     transition: all 0.5s;
 }
-
-.test{
-    width: 200px;height: 200px;text-align: center;
+#offer_id .offer_col .offer__item:nth-child(6){
+    padding:0 25px;
 }
-.test::after{
-    content: "";
-    display: block;
-    height: 2px;
+ .offer_col .offer__item i{
+        font-size: 2rem;
+        font-weight: bold !important;
+        color: #ff4f81 !important;
+} 
+.offer_col .offer__item p{
+
+} 
 
 
-}
-.test a {
-    text-decoration: none  ;
-}
+
+/* ------feedback------ */
